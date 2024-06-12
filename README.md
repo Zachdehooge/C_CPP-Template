@@ -6,3 +6,5 @@ A C/C++ template with a list of CMAKE commands to set up a new C/C++ project in 
 2. Edit the `CMakeLists.txt` and `build.sh` file to the applicable variables that you would want to use (Or keep them the same)
 3. `chmod +x build.sh` this command makes the `build.sh` file, executable
 4. Run `./build.sh`
+
+5. Importing libraries are done by taking the folder in the `include` section and dumping it in `/usr/include` 
